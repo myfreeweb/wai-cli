@@ -4,12 +4,12 @@ synopsis:        Command line runner for Wai apps (using Warp) with TLS, CGI, so
 description:
     Command line runner for Wai apps (using Warp) with support for UNIX domain sockets,
     TLS (can be turned off with a cabal flag to avoid compiling the TLS library), CGI,
-    socket activation (systemd-compatible, but see https://github.com/myfreeweb/soad for a more interesting (and not linux-only) thing than what systemd does),
+    socket activation (systemd-compatible, but see https://github.com/unrelentingtech/soad for a more interesting (and not linux-only) thing than what systemd does),
     and graceful shutdown (on TERM signal).
 category:        Web
-homepage:        https://github.com/myfreeweb/wai-cli
+homepage:        https://github.com/unrelentingtech/wai-cli
 author:          Greg V
-copyright:       2017-2019 Greg V <greg@unrelenting.technology>
+copyright:       2017-2021 Greg V <greg@unrelenting.technology>
 maintainer:      greg@unrelenting.technology
 license:         PublicDomain
 license-file:    UNLICENSE
@@ -22,7 +22,7 @@ tested-with:
 
 source-repository head
     type: git
-    location: git://github.com/myfreeweb/wai-cli.git
+    location: git://github.com/unrelentingtech/wai-cli.git
 
 flag tls
     description: Include warp-tls
